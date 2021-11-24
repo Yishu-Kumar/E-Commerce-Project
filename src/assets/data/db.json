@@ -1,0 +1,89 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "productName": "Party wear shit",
+            "category_id": "5",
+            "description": "description first for shirt",
+            "price": 300,
+            "is_available": true,
+            "productImg": "",
+            "rating": 4,
+            "review": 150,
+            "vendor_name": "abc shop",
+            "waranty": 1
+        },
+        {
+            "id": 2,
+            "productName": "shirt2",
+            "category_id": "5",
+            "description": "description second",
+            "price": 200,
+            "is_available": true,
+            "productImg": "",
+            "rating": 3,
+            "review": 120,
+            "vendor_name": "ayc shop",
+            "waranty": 1
+        },
+        {
+            "id": 3,
+            "productName": "shirt3",
+            "category_id": "4",
+            "description": "description third",
+            "price": 500,
+            "is_available": true,
+            "productImg": "",
+            "rating": 1,
+            "review": 100,
+            "vendor_name": "aggshop",
+            "waranty": 1
+        },
+        {
+            "id": 4,
+            "productName": "Casual shirt",
+            "category_id": "2",
+            "description": "description Fourth goes here",
+            "price": 500,
+            "is_available": true,
+            "productImg": "",
+            "rating": 4,
+            "review": 150,
+            "vendor_name": "abc shop",
+            "waranty": 1
+        },
+        {
+            "id": 5,
+            "productName": "Lenga for wedding",
+            "category_id": "4",
+            "description": "description fifth",
+            "price": 500,
+            "is_available": true,
+            "productImg": "",
+            "rating": 4,
+            "review": 150,
+            "vendor_name": "avv shop",
+            "waranty": 1
+        }
+    ],
+    "posts": [
+        {"id": 1, "title": "Post 1"},
+        {"id": 2, "title": "Post 2"},
+        {"id": 3, "title": "Post 3"}
+    ],
+    "categories": [
+        {"id": 1, "categoryName": "Electronics"},
+        {"id": 2, "categoryName": "Men"},
+        {"id": 3, "categoryName": "Women"},
+        {"id": 4, "categoryName": "Home & Furniture"},
+        {"id": 5, "categoryName": "Baby & Kids"}
+    ],
+    "comments": [
+        {"id": 1, "body": "Some Comment", "postId": 1},
+        {"id": 2, "body": "Some Comment", "postId": 1}
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
+

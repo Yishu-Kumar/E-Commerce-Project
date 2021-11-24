@@ -1,0 +1,10 @@
+
+<h1>E-Shop</h1>
+
+<a routerLink="products" class="list-group-item" style="background-color: khaki">View All Products</a>
+<a routerLink="products/add-product" class="list-group-item" style="background-color: #ddd">Add New Product</a>
+
+<div class="list-group" *ngFor="let category of categoryList">
+    <a routerLink="products/{{ category.id }}" class="list-group-item" [routerLinkActive]="'active'">{{ category.name }}</a>
+</div>
+

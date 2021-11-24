@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* body {
+    padding-top: 80px;
+} */
+
+footer {
+    padding-top: 30px;
+}
+
+.nav-link {
+    color: white!important;
+}
+
+.navbar-brand {
+    color: white!important;
+}
+

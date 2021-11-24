@@ -1,0 +1,47 @@
+<!-- Header. -->
+<!-- <header class="bg-dark py-5 mt-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Shop in style</h1>
+            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+        </div>
+    </div>
+</header> -->
+
+<!-- Section. -->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4" *ngIf="products.length > 0">
+            <div class="col mb-5" *ngFor="let product of products">
+                <div class="card h-100">
+                    
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{{ product.productImg }}" alt="...">
+                    
+                    <!-- Product details-->
+                    <div class="card-body">
+                        <div class="">
+                    
+                            <!-- Product name-->
+                            <h4 class="card-title">
+                                <a routerLink="/products/view-product/{{ product.id }}" style="text-decoration: none;">{{ product.name }}</a>
+                            </h4>
+                    
+                            <!-- Product price-->
+                            <h5>$ {{ product.price }}</h5>
+                            <p class="card-text">{{ product.description }} </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Product actions-->
+                    <div class="card-footer">
+                        <small class="text-muted">{{ product.rating }} star</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center" *ngIf="products.length < 0">No product of this category exist!!</div>
+    </div>
+</section>
+

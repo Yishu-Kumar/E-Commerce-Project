@@ -1,0 +1,57 @@
+<div class="row my-3 gx-4 gx-lg-5">
+    <!-- <div class="col-xs-12">
+        <img class="card-img-top h-100 w-60" src="{{ product.productImg }}" alt="...">
+    </div> -->
+
+    <div class="col-xs-12">
+        <div class="card">
+            <img class="card-img-top img-fluid h-100 w-60" src="{{ product.productImg }}" alt="...">
+
+            <div class="card-body">
+                <h3 class="card-title">{{ product.name }} </h3>
+
+                <a href="products/update-product/{{ product.id }}">Update Product</a> | 
+                <a href="products/delete-product/{{ product.id }}">Delete Product</a>
+
+                <h4 class="fs-5 my-2 fw-bold">$ {{ product.price }}</h4>
+
+                <p class="card-text">{{ product.description }}</p>
+
+                <span class="text-warning"></span>
+                {{ product.rating }} stars
+                <!-- <div class="d-flex my-3">
+                    <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
+                        style="max-width: 3rem">
+
+                    <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        Add to cart
+                    </button>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- <div class="card my-3">
+            <h2 class="card-header">{{ product.review }}</h2>
+            
+            <div class="card-body">
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi.
+                    Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minimaeaiste
+                    laborum vero?
+                </div>
+                
+                <div class="card-footer my-4">
+                    Posted by Anonymous on 3/1/17
+                </div>
+
+                <hr />
+            </div>
+
+            <div>
+                <button class="btn btn-lg btn-success m-3">Leave a comment</button>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
